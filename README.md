@@ -256,16 +256,19 @@ fc-cache -vf
 | 文件管理器  |         thunar         |      |
 | EDGE 浏览器 | microsoft-edge-dev-bin |  Y   |
 |   VSCode    | visual-studio-code-bin |  Y   |
+|   Typora    |         typora         |      |
+
+
 
 ### 美化配置清单
 
-|    用途    |                             软件                             |         包名          | AUR  |
-| :--------: | :----------------------------------------------------------: | :-------------------: | :--: |
-|  主题管理  |                         lxappearance                         |     lxappearance      |      |
-|  GTK主题   |   [Materia theme](https://github.com/nana-4/materia-theme)   |   materia-gtk-theme   |      |
-|  图标主题  | [Tela icon theme](https://github.com/vinceliuice/Tela-icon-theme) |    tela-icon-theme    |  Y   |
-| 输入法主题 |                        Material Color                        | fcitx5-material-color |      |
-|            |                                                              |                       |      |
+|     用途      |       软件       |         包名          | AUR  |
+| :-----------: | :--------------: | :-------------------: | :--: |
+|   主题管理    |   lxappearance   |     lxappearance      |      |
+|    GTK主题    |       Arc        |     arc-gtk-theme     |      |
+|   图标主题    |      Paper       |   paper-icon-theme    |  Y   |
+|  输入法主题   |  Material Color  | fcitx5-material-color |      |
+| QT使用GTK主题 | qt5-styleplugins |   qt5-styleplugins    |  Y   |
 
 
 
