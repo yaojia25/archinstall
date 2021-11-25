@@ -13,7 +13,7 @@ pacman -Syy --noconfirm archlinuxcn-keyring
 pacman -S --noconfirm paru
 
 # i3-gaps
-pacman -S --noconfirm i3-gaps xorg-server xorg-xinit
+pacman -S --noconfirm bspwm sxhkd xorg-server xorg-xinit xorg-xsetroot
 pacman -S --noconfirm polybar rofi picom alacritty feh fcitx5-im fcitx5-chinese-addons 
 pacman -S --noconfirm thunar gvfs lxappearance neofetch
 pacman -S --noconfirm ranger qt5ct typora

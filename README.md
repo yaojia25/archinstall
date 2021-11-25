@@ -208,17 +208,18 @@ git clone https://github.com/yaojia25/dotfiles.git
 
 ### 基础配置清单
 
-|   配置   |                            软件名                            |              包名               | AUR  |
-| :------: | :----------------------------------------------------------: | :-----------------------------: | :--: |
-|   桌面   |        [i3-gaps](https://wiki.archlinux.org/title/I3)        |             i3-gaps             |      |
-|  状态栏  |     [polybar](https://wiki.archlinux.org/title/Polybar)      |             polybar             |  Y   |
-|  启动器  |                             rofi                             |              rofi               |      |
-|  渲染器  |                            picom                             |              picom              |      |
-|   终端   |                          alacritty                           |            alacritty            |      |
-|   壁纸   |                             feh                              |               feh               |      |
-|   通知   |                            dunst                             |              dunst              |      |
-|  输入法  | [fcitx5](https://wiki.archlinux.org/title/Fcitx5_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) | fcitx5-im fcitx5-chinese-addons |      |
-| AUR 助手 |                          paru / yay                          |                                 |      |
+|      配置       |                            软件名                            |              包名               | AUR  |
+| :-------------: | :----------------------------------------------------------: | :-----------------------------: | :--: |
+|      桌面       |   [~~i3-gaps~~](https://wiki.archlinux.org/title/I3) bspwm   |         i3-gaps，bspwm          |      |
+| 快捷键（bspwm） |                            sxhkd                             |              sxhkd              |      |
+|     状态栏      |     [polybar](https://wiki.archlinux.org/title/Polybar)      |             polybar             |  Y   |
+|     启动器      |                             rofi                             |              rofi               |      |
+|     渲染器      |                            picom                             |              picom              |      |
+|      终端       |                          alacritty                           |            alacritty            |      |
+|      壁纸       |                            feh，                             |               feh               |      |
+|      通知       |                            dunst                             |              dunst              |      |
+|     输入法      | [fcitx5](https://wiki.archlinux.org/title/Fcitx5_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)) | fcitx5-im fcitx5-chinese-addons |      |
+|    AUR 助手     |                        paru / ~~yay~~                        |                                 |      |
 
 桌面环境依赖：`xorg-server`  `xorg-xinit` `xorg-xsetroot (可选)`
 
@@ -257,6 +258,7 @@ fc-cache -vf
 | EDGE 浏览器 | microsoft-edge-dev-bin |  Y   |
 |   VSCode    | visual-studio-code-bin |  Y   |
 |   Typora    |         typora         |      |
+| 火狐浏览器  |        firefox         |      |
 
 
 
@@ -264,10 +266,11 @@ fc-cache -vf
 
 |     用途      |       软件       |         包名          | AUR  |
 | :-----------: | :--------------: | :-------------------: | :--: |
-|   主题管理    |   lxappearance   |     lxappearance      |      |
+|  GTK主题管理  |   lxappearance   |     lxappearance      |      |
 |    GTK主题    |       Arc        |     arc-gtk-theme     |      |
 |   图标主题    |      Paper       |   paper-icon-theme    |  Y   |
 |  输入法主题   |  Material Color  | fcitx5-material-color |      |
+|  QT主题管理   |      qt5ct       |         qt5ct         |      |
 | QT使用GTK主题 | qt5-styleplugins |   qt5-styleplugins    |  Y   |
 
 
