@@ -87,7 +87,7 @@ mount /dev/sda1 /mnt/boot/efi
 使用 `pacstrap` 安装系统
 
 ```
-pacstrap /mnt base base-devel linux linux-firmware neovim sudo
+pacstrap /mnt base base-devel linux linux-firmware neovim sudo git networkmanager
 ```
 
 生成 `fstab` 文件
