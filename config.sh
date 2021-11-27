@@ -12,23 +12,27 @@ pacman -Syy --noconfirm archlinuxcn-keyring
 # AUR helper
 pacman -S --noconfirm paru
 
-# i3-gaps
+# wm
 pacman -S --noconfirm bspwm sxhkd xorg-server xorg-xinit xorg-xsetroot
-pacman -S --noconfirm polybar rofi picom alacritty feh fcitx5-im fcitx5-chinese-addons 
-pacman -S --noconfirm thunar gvfs lxappearance neofetch
-pacman -S --noconfirm ranger qt5ct typora
+# system
+pacman -S --noconfirm rofi picom alacritty feh fcitx5-im fcitx5-chinese-addons dunst
+pacman -S --noconfirm pulseaudio networkmanager network-manager-applet nm-connection-editor
+pacman -S --noconfirm thunar gvfs thunar-volman thunar-archive-plugin thunar-thumbnailers 
+paru -S --noconfirm thunar-shares-plugin polybar
+pacman -S --noconfirm ranger neofetch figlet lazygit
+pacman -S --noconfirm ranger typora
 
 # 字体
 pacman -S --noconfirm ttf-sarasa-gothic adobe-source-han-serif-otc-fonts noto-fonts-emoji
+paru -S --noconfirm ttf-sarasa-gothic ttf-jetbrains-mono ttf-iosevka-nerd
 
 
 # 美化
-pacman -S --noconfirm arc-gtk-theme
-paru -S ttf-sarasa-gothic ttf-jetbrains-mono ttf-iosevka-nerd
-paru -S paper-icon-theme qt5-styleplugins
+pacman -S --noconfirm arc-gtk-theme qt5ct lxappearance
+paru -S --noconfirm papirus-icon-theme-git qt5-styleplugins
 
 # 软件
-paru -S visual-studio-code-bin typora microsoft-edge-dev-bin
+paru -S --noconfirm visual-studio-code-bin microsoft-edge-stable-bin 
 
 # 安装更沙黑体 Nerd
 git clone https://github.com/laishulu/Sarasa-Mono-SC-Nerd
