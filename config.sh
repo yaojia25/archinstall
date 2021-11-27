@@ -16,7 +16,7 @@ pacman -S --noconfirm paru
 pacman -S --noconfirm bspwm sxhkd xorg-server xorg-xinit xorg-xsetroot
 # system
 pacman -S --noconfirm rofi picom alacritty feh fcitx5-im fcitx5-chinese-addons dunst
-pacman -S --noconfirm pulseaudio networkmanager network-manager-applet nm-connection-editor
+pacman -S --noconfirm pulseaudio network-manager-applet nm-connection-editor
 pacman -S --noconfirm thunar gvfs thunar-volman thunar-archive-plugin thunar-thumbnailers 
 paru -S --noconfirm thunar-shares-plugin polybar
 pacman -S --noconfirm ranger neofetch figlet lazygit
